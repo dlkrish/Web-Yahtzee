@@ -1,0 +1,125 @@
+/* Danielle Krishna */
+
+html, body 
+{
+  width: 100%;
+  height:100%;
+}
+
+
+body 
+{
+	background: linear-gradient(-45deg, #3518c4, #dcbfff, #ffccdc, #ffffff);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient 
+{
+	0% 
+	{
+		background-position: 0% 50%;
+	}
+	
+	50% 
+	{
+		background-position: 100% 50%;
+	}
+	
+	100% 
+	{
+		background-position: 0% 50%;
+	}
+}
+
+img           
+{
+	margin-right: 10px; 
+}
+
+table         
+{
+	width: 200px;
+    border-collapse:collapse; 
+    background-color: lightblue; 
+}
+
+table, td, th 
+{
+	border: 1px solid black; 
+    padding: 4px; 
+	margin-top: 20px; 
+}
+
+th     
+{
+	text-align: left; 
+    color: white;
+    background-color: darkblue; 
+}
+
+.Greeting
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	font-size: 25pt;
+	color: red;
+}
+
+.Rules
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: green;
+}
+
+.Center
+{
+	text-align: center;
+}
+
+.Messages
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20pt;
+	color: blue;
+}
+
+.KeeperInfo
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15pt;
+	color: blue;
+}
+
+.GameOver
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15pt;
+	color: red;
+}
+
+.PlayRollButtons
+{
+	background-color: green;
+	border: none;
+	color: yellow;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.KeeperButtons
+{
+	background-color: green;
+	border: none;
+	color: yellow;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+ 

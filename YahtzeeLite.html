@@ -1,0 +1,65 @@
+<!-- Danielle Krishna -->
+
+<!DOCTYPE html>
+
+<!-- HTML for Yahtze Lite -->
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Yahtze Lite</title> 
+      <link rel = "stylesheet" type = "text/css" href = "style.css">
+      <script src = "YahtzeHW.js"></script>
+   </head>
+   <body>
+   <p>
+   <div class = "Greeting"> Welcome to Yahtzee Lite!</br> </div>
+   <br></br>
+   <div class = "Center">
+   <div class = "Rules"> <i>You have 3 rolls to get a large straight (1, 2, 3, 4, 5 or 2, 3, 4, 5, 6).<br></br> After a roll, you can choose to keep the number you have for a die by clicking the "keep" button.<br></br> If you get a large straight after 3 rolls, you win!<br></br> To start, click "Play" and then "Roll" to start your first roll.</i> </div>
+   <br></br>
+   
+   <form action = "#">
+         <input class = "PlayRollButtons" id = "playButton" type = "button" value = "Play">
+		 <input class = "PlayRollButtons" id = "rollButton" type = "button" value = "Roll" disabled>
+    </form>
+   
+   <audio id = "diceRollingAudio" preload = "auto">
+         <source src = "http://test.deitel.com/dicerolling.mp3"
+            type = "audio/mpeg">
+         <source src = "http://test.deitel.com/dicerolling.ogg"
+            type = "audio/ogg">
+         Browser does not support audio tag
+	</audio>
+	
+	<br></br>
+	<div class = "Messages"> <div id = "messages">Click play to start!</div></div>
+	<div class = "GameOver"><div id = "gameOverMessage"></div></div>
+	<br></br>
+		<p>
+			<img id = "die1" src = "blank.png " alt = "die 1 image">
+			<img id = "die2" src = "blank.png" alt = "die 2 image">
+			<img id = "die3" src = "blank.png" alt = "die 3 image">
+			<img id = "die4" src = "blank.png" alt = "die 4 image">
+			<img id = "die5" src = "blank.png" alt = "die 5 image">
+		</p>
+	  
+	<form action = "#">
+         <input class = "KeeperButtons" id = "keeper1" type = "button" value="keep?">
+		 <input class = "KeeperButtons" id = "keeper2" type = "button" value="keep?">
+		 <input class = "KeeperButtons" id = "keeper3" type = "button" value="keep?">
+		 <input class = "KeeperButtons" id = "keeper4" type = "button" value="keep?">
+		 <input class = "KeeperButtons" id = "keeper5" type = "button" value="keep?">
+      </form>
+	  
+      
+	  <br></br>
+      <div class = "KeeperInfo"><div>Click a keep button to keep the value of a die for the next roll(s).</div></div>
+	  <br><br>
+	  <div>
+	  Danielle Krishna 2019
+	  </div>
+	  </div>
+   </body>
+</html>
+
